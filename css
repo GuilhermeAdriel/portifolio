@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos para o cabecalho e navegacao */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Estilos para as secoes */
+section {
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Secao "Sobre" */
+#sobre {
+    background-color: #fff;
+}
+
+#sobre h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Secao "Projetos" */
+#projetos {
+    background-color: #f9f9f9;
+}
+
+#projetos h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.projeto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.projeto h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.projeto a {
+    text-decoration: none;
+    color: #333;
+    background-color: #ff6347;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.projeto a:hover {
+    background-color: #ff4500;
+}
+
+/* Seção "Contato" */
+#contato {
+    background-color: #fff;
+}
+
+#contato h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contato p {
+    font-size: 1.2rem;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
